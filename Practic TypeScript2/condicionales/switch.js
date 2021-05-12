@@ -29,7 +29,8 @@ var tipomenu;
     tipomenu[tipomenu["canciones"] = 1] = "canciones";
     tipomenu[tipomenu["album"] = 2] = "album";
     tipomenu[tipomenu["perfiles"] = 3] = "perfiles";
-})(tipomenu || (tipomenu = {}));
+})
+(tipomenu || (tipomenu = {}));
 switch (menu) {
     case tipomenu.canciones: {
         console.log("accede a las canciones");
