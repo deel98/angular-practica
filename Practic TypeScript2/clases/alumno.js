@@ -1,4 +1,3 @@
-//inicio de la clase
 var alumno = /** @class */ (function () {
     /*constructor
     cada que se crea una instancia el constructor tambien lo hara, sobrescribiendo cada objeto
@@ -10,7 +9,6 @@ var alumno = /** @class */ (function () {
         this.edad = 75;
         this.mostrarmensaje();
     }
-    //metodos
     alumno.prototype.mostrarmensaje = function () {
         console.log("hola", this.nombre + " " + this.apellido + " ," + "que tenga buen día");
     };
@@ -22,7 +20,6 @@ var alumno = /** @class */ (function () {
     };
     return alumno;
 }());
-//fin de la clase
 var alumno1 = new alumno();
 /*alumno1.nombre = "David";
 alumno1.apellido= "Cantú";

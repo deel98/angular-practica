@@ -1,4 +1,4 @@
-//inicio de la clase
+
 class alumno{
 nombre:string;
 apellido:string;
@@ -16,7 +16,6 @@ constructor(){
     this.mostrarmensaje();
 }
 
-//metodos
 private mostrarmensaje() :void
     {
 
@@ -31,10 +30,9 @@ asignar(nombreparametro:string, apellidoparametro:string, edadparametro:number){
     this.edad = edadparametro;
     //this.mostrarmensaje();
 }
-//fin de metodos
 
 }
-//fin de la clase
+
 
 var alumno1:alumno = new alumno();
 /*alumno1.nombre = "David";
